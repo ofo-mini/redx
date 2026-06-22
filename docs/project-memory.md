@@ -26,6 +26,7 @@
 
 ## Important Paths
 
+- GitHub remote：`git@github.com:ofo-mini/redx.git`
 - `/home/redx/xhs_fetch_worker.py`
 - `/home/redx/xhs_fetch_worker_mongo.py`
 - `/home/redx/xhs_db_writer.py`

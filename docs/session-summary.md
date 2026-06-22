@@ -27,3 +27,8 @@
 - 给 slot2 `192.168.50.146:30100` 重新设置 Burp 透明代理，目标为小红书 app UID `10122`。
 - 已注入 Burp CA `9a5ba575.0` 到 Android system/Conscrypt CA 目录。
 - 当前规则：TCP 80 -> `192.168.50.3:8090`，TCP 443 -> `192.168.50.3:18974`，DNS UDP 53 -> `192.168.50.1:53`；Android global proxy 仍为 `null`。
+
+## 2026-06-22 GitHub Upload
+
+- 初始化本地 git 仓库，remote 为 `git@github.com:ofo-mini/redx.git`，默认分支 `main`。
+- 已上传源码、文档和配置；`.gitignore` 排除了 APK、截图、CA 文件、缓存和本地工具配置。
