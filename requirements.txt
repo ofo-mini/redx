@@ -1,0 +1,7 @@
+pymysql==1.1.1
+pymongo==4.9.2
+playwright==1.53.0
+requests==2.32.3
+curl_cffi==0.7.4
+redis==5.2.1
+flask==3.1.0

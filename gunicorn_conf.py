@@ -1,0 +1,12 @@
+bind = "0.0.0.0:5000"
+workers = 17
+worker_class = "gthread"
+threads = 4
+timeout = 30
+keepalive = 5
+max_requests = 5000
+max_requests_jitter = 500
+accesslog = "-"
+errorlog = "-"
+loglevel = "warning"
+preload_app = False
